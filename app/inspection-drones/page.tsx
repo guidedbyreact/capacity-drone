@@ -1,6 +1,9 @@
+import Navigation from '../components/Navigation';
+
 export default function InspectionDronesPage() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
+      <Navigation />
       {/* Hero Section */}
       <section className="relative py-32 mb-16">
         <div className="absolute inset-0 z-0 bg-blue-900/20">

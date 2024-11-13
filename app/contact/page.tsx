@@ -21,27 +21,10 @@ export default function ContactPage() {
                   Nos Drones
                 </a>
               </li>
-              <li className="relative group">
+              <li>
                 <a href="/#nos-services" className="text-gray-300 hover:text-blue-400 transition-colors py-2">
                   Nos Services
                 </a>
-                {/* Sous-menu */}
-                <div className="absolute left-0 mt-2 w-64 bg-black/90 backdrop-blur-sm rounded-lg shadow-lg invisible group-hover:visible transition-all opacity-0 group-hover:opacity-100">
-                  <div className="py-2">
-                    <a href="/inspection-drones" className="block px-4 py-2 text-gray-300 hover:text-blue-400 hover:bg-gray-800/50">
-                      Inspection de Drones
-                    </a>
-                    <a href="/inspection-industrielle" className="block px-4 py-2 text-gray-300 hover:text-blue-400 hover:bg-gray-800/50">
-                      Inspection Industrielle
-                    </a>
-                    <a href="/inspection-energetique" className="block px-4 py-2 text-gray-300 hover:text-blue-400 hover:bg-gray-800/50">
-                      Inspection Énergétique
-                    </a>
-                    <a href="/inspection-infrastructure" className="block px-4 py-2 text-gray-300 hover:text-blue-400 hover:bg-gray-800/50">
-                      Inspection d'Infrastructures
-                    </a>
-                  </div>
-                </div>
               </li>
               <li>
                 <a href="/contact" className="text-gray-300 hover:text-blue-400 transition-colors py-2">
@@ -53,6 +36,27 @@ export default function ContactPage() {
         </div>
       </nav>
 
+      {/* Hero Section */}
+      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0 bg-gray-800">
+          <img
+            src="/api/placeholder/1920/1080"
+            alt="Contact Us"
+            className="w-full h-full object-cover opacity-50"
+          />
+        </div>
+        
+        {/* Hero Content */}
+        <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
+            Contactez-nous
+          </h1>
+          <p className="text-xl md:text-2xl mb-8 text-gray-300">
+            Nous sommes là pour répondre à vos besoins
+          </p>
+        </div>
+      </section>
 
       {/* Contact Form Section */}
       <section className="py-20 px-4">
