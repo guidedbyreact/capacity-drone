@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navigation() {
   return (
@@ -6,7 +7,14 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center space-x-3">
+            <Image
+              src="/logo.svg"
+              alt="Capacity Drone Logo"
+              width={40}
+              height={40}
+              className="w-10 h-10"
+            />
             <span className="text-xl font-bold text-white">CAPACITY DRONE</span>
           </Link>
 
@@ -26,7 +34,7 @@ export default function Navigation() {
                   </svg>
                 </button>
                 
-                {/* Sous-menu */}
+                {/* Sous-menu Services */}
                 <div className="absolute left-0 mt-2 w-64 rounded-md shadow-lg bg-black/80 backdrop-blur-sm border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                   <div className="py-1">
                     <Link href="/inspection-drones" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
@@ -48,9 +56,30 @@ export default function Navigation() {
                 </div>
               </div>
 
-              <Link href="/domaines-activites" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                Domaines d'activités
-              </Link>
+              {/* Menu déroulant Domaines d'activités */}
+              <div className="relative group">
+                <button className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium flex items-center">
+                  Domaines d'activités
+                  <svg className="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                
+                {/* Sous-menu Domaines */}
+                <div className="absolute left-0 mt-2 w-64 rounded-md shadow-lg bg-black/80 backdrop-blur-sm border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                  <div className="py-1">
+                    <Link href="/domaines/chantier" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
+                      Chantier
+                    </Link>
+                    <Link href="/domaines/photovoltaique" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
+                      Photovoltaïque
+                    </Link>
+                    <Link href="/domaines/telecommunication" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
+                      Télécommunication
+                    </Link>
+                  </div>
+                </div>
+              </div>
 
               <Link href="/contact" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                 Contact
@@ -90,8 +119,14 @@ export default function Navigation() {
           <Link href="/solutions-professionnelles" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
             Solutions Professionnelles
           </Link>
-          <Link href="/domaines-activites" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-            Domaines d'activités
+          <Link href="/domaines/chantier" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium pl-6">
+            Chantier
+          </Link>
+          <Link href="/domaines/photovoltaique" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium pl-6">
+            Photovoltaïque
+          </Link>
+          <Link href="/domaines/telecommunication" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium pl-6">
+            Télécommunication Visée
           </Link>
           <Link href="/contact" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
             Contact
