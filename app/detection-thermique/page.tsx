@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Navigation from '../components/Navigation';
 
 const DetectionThermiquePage = () => {
@@ -29,7 +29,7 @@ const DetectionThermiquePage = () => {
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
               Nos drones équipés de capteurs thermiques de pointe détectent les anomalies invisibles 
-              à l'œil nu pour une maintenance préventive optimale.
+              à l&apos;œil nu pour une maintenance préventive optimale.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center pt-8">
               <button className="bg-blue-500/80 backdrop-blur-sm hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/10">

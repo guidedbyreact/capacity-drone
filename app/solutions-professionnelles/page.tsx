@@ -1,255 +1,98 @@
-import React, { useState, useEffect } from 'react';
 import Navigation from '../components/Navigation';
-const SolutionsDronePage = () => {
 
+export default function SolutionsProfessionnellesPage() {
   return (
-    <div className="bg-gradient-to-b from-gray-900 to-black text-white min-h-screen">
-      {/* Hero Section */}
+    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
       <Navigation />
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-black/50 z-10"></div>
-          <div className="absolute inset-0 z-20 bg-gradient-to-b from-transparent via-blue-900/20 to-black"></div>
-        </div>
-
-        {/* Contenu du hero */}
-        <div className="relative z-30 max-w-6xl mx-auto px-4 text-center">
-          <div className="space-y-8">
-            <h1 className="text-5xl md:text-7xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
+      {/* Hero Section */}
+      <section className="relative py-20">
+        <div className="absolute inset-0 bg-[url('/images/grid.png')] opacity-30"></div>
+        <div className="relative container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
               Solutions Professionnelles par Drone
             </h1>
-            <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
-              Une gamme complète de services de drones conçus pour répondre aux défis uniques de votre secteur d'activité.
+            <p className="text-xl text-gray-300 mb-8">
+              Des solutions sur mesure pour répondre à l&apos;ensemble de vos besoins professionnels
             </p>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center pt-8">
-              <button className="bg-blue-500/80 backdrop-blur-sm hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/20">
-                Découvrir nos solutions
-              </button>
-              <button className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-xl text-lg transition-all border border-blue-500/20 hover:border-blue-500/40">
-                En savoir plus
-              </button>
-            </div>
           </div>
         </div>
       </section>
 
       {/* Services Section */}
-      <section className="py-16 bg-gray-900/50">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
-            Nos Expertises
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                title: "Industrie",
-                description: "Solutions adaptées aux besoins industriels spécifiques.",
-                details: [
-                  "Inspections de sites",
-                  "Maintenance préventive",
-                  "Suivi de chantier",
-                  "Cartographie industrielle"
-                ]
-              },
-              {
-                title: "Collectivités",
-                description: "Services dédiés aux collectivités locales et territoriales.",
-                details: [
-                  "Urbanisme et aménagement",
-                  "Surveillance du territoire",
-                  "Gestion du patrimoine",
-                  "Communications"
-                ]
-              },
-              {
-                title: "Sécurité",
-                description: "Solutions pour les organisations de sécurité et d'urgence.",
-                details: [
-                  "Surveillance événementielle",
-                  "Gestion de crise",
-                  "Recherche et sauvetage",
-                  "Sécurité civile"
-                ]
-              }
-            ].map((service, index) => (
-              <div key={index} className="group bg-gray-800/50 p-6 rounded-xl backdrop-blur-sm border border-blue-500/10 hover:border-blue-500/30 transition-all">
-                <h3 className="text-xl font-semibold mb-3 text-blue-300">
-                  {service.title}
-                </h3>
-                <p className="text-gray-400 mb-4">{service.description}</p>
-                <ul className="space-y-2">
-                  {service.details.map((detail, idx) => (
-                    <li key={idx} className="flex items-start gap-2 text-gray-400">
-                      <svg
-                        className="w-5 h-5 text-blue-400 mt-1"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M5 13l4 4L19 7"
-                        />
-                      </svg>
-                      {detail}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Secteurs d'activité */}
       <section className="py-16">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
-            Secteurs d'Activité
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {[
-              {
-                title: "Industrie & BTP",
-                description: "Solutions complètes pour le secteur industriel et la construction.",
-                applications: [
-                  "Inspections de sites industriels",
-                  "Suivi de chantiers",
-                  "Maintenance industrielle",
-                  "Contrôle qualité"
-                ]
-              },
-              {
-                title: "Énergie & Utilities",
-                description: "Services spécialisés pour le secteur énergétique.",
-                applications: [
-                  "Inspection des installations",
-                  "Audit énergétique",
-                  "Surveillance des réseaux",
-                  "Maintenance préventive"
-                ]
-              },
-              {
-                title: "Collectivités & Urbanisme",
-                description: "Solutions pour la gestion et le développement territorial.",
-                applications: [
-                  "Cartographie urbaine",
-                  "Études d'impact",
-                  "Suivi environnemental",
-                  "Communication"
-                ]
-              },
-              {
-                title: "Sécurité & Secours",
-                description: "Services pour la sécurité et les interventions d'urgence.",
-                applications: [
-                  "Surveillance d'événements",
-                  "Gestion de crise",
-                  "Missions de secours",
-                  "Protection civile"
-                ]
-              }
-            ].map((sector, index) => (
-              <div key={index} className="group p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-                <div className="relative">
-                  <div className="absolute -inset-1 bg-gradient-to-r from-blue-500/10 to-cyan-500/10 rounded-lg blur opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                  <div className="relative">
-                    <h3 className="text-xl font-semibold mb-3 text-blue-300">
-                      {sector.title}
-                    </h3>
-                    <p className="text-gray-400 mb-4">{sector.description}</p>
-                  </div>
-                </div>
-                <ul className="space-y-2">
-                  {sector.applications.map((item, idx) => (
-                    <li key={idx} className="flex items-start gap-2 text-gray-400">
-                      <svg
-                        className="w-5 h-5 text-blue-400 mt-1"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M5 13l4 4L19 7"
-                        />
-                      </svg>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Service 1 */}
+            <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-blue-500/50 transition-all">
+              <h3 className="text-xl font-semibold mb-4 text-blue-400">Formation sur Mesure</h3>
+              <p className="text-gray-300">
+                Bénéficiez d&apos;une formation adaptée à vos besoins spécifiques et à votre secteur d&apos;activité.
+              </p>
+            </div>
+
+            {/* Service 2 */}
+            <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-blue-500/50 transition-all">
+              <h3 className="text-xl font-semibold mb-4 text-blue-400">Conseil &amp; Expertise</h3>
+              <p className="text-gray-300">
+                Profitez de l&apos;expertise de nos consultants pour optimiser vos opérations par drone.
+              </p>
+            </div>
+
+            {/* Service 3 */}
+            <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-blue-500/50 transition-all">
+              <h3 className="text-xl font-semibold mb-4 text-blue-400">Solutions Personnalisées</h3>
+              <p className="text-gray-300">
+                Développement de solutions techniques adaptées à vos besoins spécifiques.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Avantages Section */}
-      <section className="py-16 bg-gray-900/50">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
-            Nos Avantages
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            {[
-              {
-                value: "10+",
-                label: "Années d'expertise",
-                detail: "Expérience reconnue"
-              },
-              {
-                value: "100%",
-                label: "Satisfaction client",
-                detail: "Excellence garantie"
-              },
-              {
-                value: "24/7",
-                label: "Disponibilité",
-                detail: "Service continu"
-              },
-              {
-                value: "500+",
-                label: "Missions réalisées",
-                detail: "Confiance confirmée"
-              }
-            ].map((stat, index) => (
-              <div key={index} className="text-center p-6 bg-blue-500/10 rounded-xl hover:bg-blue-500/20 transition-all">
-                <div className="text-2xl font-bold text-blue-300">
-                  {stat.value}
-                </div>
-                <div className="text-gray-400 font-semibold mb-2">{stat.label}</div>
-                <div className="text-sm text-gray-500">{stat.detail}</div>
+      <section className="py-16 bg-black/50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-12 text-center">Pourquoi choisir nos solutions professionnelles ?</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="flex items-start space-x-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
+                <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
               </div>
-            ))}
+              <div>
+                <h3 className="text-xl font-semibold mb-2">Expertise Reconnue</h3>
+                <p className="text-gray-300">Une équipe d&apos;experts qualifiés à votre service.</p>
+              </div>
+            </div>
+
+            <div className="flex items-start space-x-4">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
+                <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold mb-2">Solutions Adaptées</h3>
+                <p className="text-gray-300">Des solutions sur mesure pour répondre à vos besoins spécifiques.</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 text-center">
-        <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
-            Prêt à démarrer votre projet ?
-          </h2>
-          <p className="text-xl text-gray-400 mb-8">
-            Découvrez comment nos solutions de drones professionnels peuvent répondre à vos besoins spécifiques.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+      <section className="py-20">
+        <div className="container mx-auto px-4 text-center">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8">Besoin d&apos;une solution professionnelle ?</h2>
             <button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105">
-              Demander un devis
-            </button>
-            <button className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-xl text-lg transition-all border border-blue-500/20 hover:border-blue-500/40">
-              En savoir plus
+              Contactez-nous
             </button>
           </div>
         </div>
       </section>
     </div>
   );
-};
-
-export default SolutionsDronePage;
+}

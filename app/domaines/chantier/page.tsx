@@ -24,9 +24,9 @@ export default function ChantierPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Service 1 */}
             <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-blue-500/50 transition-all">
-              <h3 className="text-xl font-semibold mb-4 text-blue-400">Suivi d'Avancement</h3>
+              <h3 className="text-xl font-semibold mb-4 text-blue-400">Suivi d&apos;Avancement</h3>
               <p className="text-gray-300">
-                Documentez précisément l'évolution de vos chantiers avec des prises de vues aériennes régulières et des rapports détaillés.
+                Documentez précisément l&apos;évolution de vos chantiers avec des prises de vues aériennes régulières et des rapports détaillés.
               </p>
             </div>
 

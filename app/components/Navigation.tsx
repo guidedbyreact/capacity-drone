@@ -44,7 +44,7 @@ export default function Navigation() {
                       Cartographie
                     </Link>
                     <Link href="/securite-intervention" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
-                      Sécurité & Intervention
+                      Sécurité &amp; Intervention
                     </Link>
                     <Link href="/detection-thermique" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
                       Détection Thermique
@@ -59,7 +59,7 @@ export default function Navigation() {
               {/* Menu déroulant Domaines d'activités */}
               <div className="relative group">
                 <button className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium flex items-center">
-                  Domaines d'activités
+                  Domaines d&apos;activités
                   <svg className="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
@@ -111,7 +111,7 @@ export default function Navigation() {
             Cartographie
           </Link>
           <Link href="/securite-intervention" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
-            Sécurité & Intervention
+            Sécurité &amp; Intervention
           </Link>
           <Link href="/detection-thermique" className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
             Détection Thermique

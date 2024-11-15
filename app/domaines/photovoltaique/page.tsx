@@ -3,7 +3,6 @@ import Navigation from '../../components/Navigation';
 export default function PhotovoltaiquePage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
-      {/* Hero Section */}
       <Navigation />
       {/* Hero Section */}
       <section className="relative py-20">
@@ -36,7 +35,7 @@ export default function PhotovoltaiquePage() {
             <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-blue-500/50 transition-all">
               <h3 className="text-xl font-semibold mb-4 text-blue-400">Analyse de Performance</h3>
               <p className="text-gray-300">
-                Évaluez le rendement de vos installations et identifiez les zones de perte de production pour optimiser votre production d'énergie.
+                Évaluez le rendement de vos installations et identifiez les zones de perte de production pour optimiser votre production &apos;énergie.
               </p>
             </div>
 
@@ -54,7 +53,7 @@ export default function PhotovoltaiquePage() {
       {/* Avantages Section */}
       <section className="py-16 bg-black/50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center">Pourquoi choisir notre service d'inspection photovoltaïque ?</h2>
+          <h2 className="text-3xl font-bold mb-12 text-center">Pourquoi choisir notre service d&apos;inspection photovoltaïque ?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
@@ -63,7 +62,7 @@ export default function PhotovoltaiquePage() {
                 </svg>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-2">Rapidité d'Intervention</h3>
+                <h3 className="text-xl font-semibold mb-2">Rapidité d&apos;Intervention</h3>
                 <p className="text-gray-300">Inspection complète de vos installations en un temps record grâce à nos drones.</p>
               </div>
             </div>
