@@ -1,4 +1,5 @@
 import Navigation from '../components/Navigation'
+import Link from 'next/link';
 
 const DroneInspection = () => {
   return (
@@ -22,15 +23,18 @@ const DroneInspection = () => {
               Inspections & Surveillance
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
-              Une technique moderne permettant d'effectuer des vérifications visuelles et techniques sur des structures ou des sites difficiles d'accès, tout en garantissant une sécurité accrue et des coûts réduits.
+              Une technique moderne permettant d&apos;effectuer des vérifications visuelles et techniques sur des structures ou des sites difficiles d&apos;accès, tout en garantissant une sécurité accrue et des coûts réduits.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center pt-8">
               <button className="bg-blue-500/80 backdrop-blur-sm hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105">
                 Découvrir nos services
               </button>
-              <button className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-xl text-lg transition-all">
+              <Link 
+                href="/devis" 
+                className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-xl text-lg transition-all"
+              >
                 Demander un devis
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -58,18 +62,18 @@ const DroneInspection = () => {
       {/* Process Section */}
       <section id="process" className="py-16 bg-gray-900/50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-blue-400">Comment fonctionne l'inspection par drone ?</h2>
+          <h2 className="text-3xl font-bold mb-12 text-blue-400">Comment fonctionne l&apos;inspection par drone ?</h2>
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Préparation du vol</h3>
               <p className="text-gray-400">
-                Avant l'inspection, un plan de vol est établi pour déterminer les zones à survoler, la hauteur de vol et les angles de prise de vue nécessaires.
+                Avant l&apos;inspection, un plan de vol est établi pour déterminer les zones à survoler, la hauteur de vol et les angles de prise de vue nécessaires.
               </p>
             </div>
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Lancement du drone</h3>
               <p className="text-gray-400">
-                Le drone est lancé pour survoler la structure ou la zone à inspecter, tout en suivant le parcours défini. En fonction de l'équipement à bord, il capte des images ou des vidéos en temps réel.
+                Le drone est lancé pour survoler la structure ou la zone à inspecter, tout en suivant le parcours défini. En fonction de l&apos;équipement à bord, il capte des images ou des vidéos en temps réel.
               </p>
             </div>
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
@@ -81,13 +85,13 @@ const DroneInspection = () => {
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Analyse des résultats</h3>
               <p className="text-gray-400">
-                Les données collectées sont analysées pour détecter des signes de dégradation, des anomalies ou des besoins d'entretien, incluant fissures, humidité, corrosion.
+                Les données collectées sont analysées pour détecter des signes de dégradation, des anomalies ou des besoins d&apos;entretien, incluant fissures, humidité, corrosion.
               </p>
             </div>
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Rapport détaillé</h3>
               <p className="text-gray-400">
-                Un rapport d'inspection est généré, incluant les images, vidéos et informations pertinentes pour planifier la maintenance.
+                Un rapport d&apos;inspection est généré, incluant les images, vidéos et informations pertinentes pour planifier la maintenance.
               </p>
             </div>
           </div>
@@ -97,12 +101,12 @@ const DroneInspection = () => {
       {/* Benefits Section */}
       <section className="py-16">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-blue-400">Avantages de l'inspection par drone</h2>
+          <h2 className="text-3xl font-bold mb-12 text-blue-400">Avantages de l&apos;inspection par drone</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Accès et Sécurité</h3>
               <ul className="list-disc list-inside text-gray-400">
-                <li>Inspection des zones difficiles d'accès</li>
+                <li>Inspection des zones difficiles d&apos;accès</li>
                 <li>Réduction des risques en hauteur</li>
                 <li>Limitation des échafaudages et nacelles</li>
                 <li>Protection des équipes humaines</li>

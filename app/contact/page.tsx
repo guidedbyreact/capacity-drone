@@ -36,25 +36,6 @@ const ContactPage = () => {
               </button>
             </div>
           </div>
-
-          {/* Indicateur de défilement */}
-          <a href="#contact-form" className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-30">
-            <div className="animate-bounce bg-white/10 backdrop-blur-sm p-2 rounded-full">
-              <svg
-                className="w-6 h-6 text-blue-400"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round" 
-                  strokeWidth={2} 
-                  d="M19 14l-7 7m0 0l-7-7m7 7V3"
-                />
-              </svg>
-            </div>
-          </a>
         </section>
 
         {/* Contact Form Section */}
@@ -95,7 +76,7 @@ const ContactPage = () => {
                 </div>
   
                 <div className="space-y-4">
-                  <h2 className="text-2xl font-bold text-blue-400">Horaires d'ouverture</h2>
+                  <h2 className="text-2xl font-bold text-blue-400">Horaires d&apos;ouverture</h2>
                   <p className="text-gray-400">
                     Lundi - Vendredi : 9h00 - 18h00<br />
                     Weekend : Sur rendez-vous
@@ -141,7 +122,7 @@ const ContactPage = () => {
                       <option value="inspection">Inspection & Surveillance</option>
                       <option value="cartographie">Cartographie et Modélisation 3D</option>
                       <option value="thermique">Détection Thermique</option>
-                      <option value="securite">Sécurité & Intervention d'Urgence</option>
+                      <option value="securite">Sécurité & Intervention d&apos;Urgence</option>
                     </select>
                   </div>
   

@@ -1,4 +1,6 @@
 import Navigation from '../components/Navigation'
+import Link from 'next/link';
+
 const TopographiePage = () => {
   return (
     <div className="bg-gradient-to-b from-gray-900 to-black text-white min-h-screen">
@@ -20,12 +22,15 @@ const TopographiePage = () => {
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
               Création de cartes précises et modèles 3D haute définition grâce à nos drones équipés 
-              des dernières technologies de capture d'images aériennes.
+              des dernières technologies de capture d&apos;images aériennes.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center pt-8">
-              <button className="bg-blue-500/80 backdrop-blur-sm hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105">
-                Découvrir nos services
-              </button>
+              <Link 
+                href="/devis" 
+                className="bg-blue-500/80 backdrop-blur-sm hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105"
+              >
+                Demander un devis
+              </Link>
               <button className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-xl text-lg transition-all">
                 En savoir plus
               </button>
@@ -81,7 +86,7 @@ const TopographiePage = () => {
               },
               {
                 title: "Orthophotographie",
-                description: "Production d'images géoréférencées à l'échelle pour des mesures et analyses précises.",
+                description: "Production d&apos;images géoréférencées à l&apos;échelle pour des mesures et analyses précises.",
                 details: [
                   "Images haute résolution",
                   "Géoréférencement précis",
@@ -287,9 +292,12 @@ const TopographiePage = () => {
             Nos experts sont là pour vous accompagner dans la réalisation de vos projets.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-blue-500/80 backdrop-blur-sm hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105">
+            <Link 
+              href="/devis" 
+              className="bg-blue-500/80 backdrop-blur-sm hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105"
+            >
               Demander un devis
-            </button>
+            </Link>
             <button className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-xl text-lg transition-all">
               En savoir plus
             </button>

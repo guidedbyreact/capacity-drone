@@ -35,7 +35,7 @@ function Home() {
             </p>
             <p className="text-lg md:text-xl mb-12 max-w-3xl mx-auto text-gray-400">
               Votre partenaire expert en solutions de drones professionnelles pour des missions variées : 
-              inspections industrielles, cartographie, surveillance, détection thermique et bien plus.
+              inspections industrielles, cartographie, surveillance, détection thermique et bien d&apos;autres.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <button className="bg-blue-500/80 backdrop-blur-sm hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105">

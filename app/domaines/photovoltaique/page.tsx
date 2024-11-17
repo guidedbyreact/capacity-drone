@@ -1,93 +1,102 @@
-import Navigation from '../../components/Navigation';
+import Navigation from '../../components/Navigation'
 
-export default function PhotovoltaiquePage() {
+const ThermalInspectionExplained = () => {
+  const examples = [
+    {
+      image: "/api/placeholder/1920/1080",
+      legend: "Inspection d'une centrale photovoltaïque"
+    },
+    {
+      image: "/api/placeholder/1920/1080",
+      legend: "Inspection d'ombrières photovoltaïques"
+    },
+    {
+      image: "/api/placeholder/1920/1080",
+      legend: "Inspection de toitures équipées de panneaux solaires"
+    }
+  ];
+
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
-      <Navigation />
+    <div className="bg-gradient-to-b from-gray-900 to-black text-white min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20">
-        <div className="absolute inset-0 bg-[url('/images/grid.png')] opacity-30"></div>
-        <div className="relative container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
-              Inspection Photovoltaïque par Drone
+      <Navigation />
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-black/50 z-10"></div>
+          <img
+            src="/api/placeholder/1920/1080"
+            alt="Inspection de Sites Photovoltaïques et Toitures par Drone"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 z-20 bg-gradient-to-b from-transparent via-black/50 to-black"></div>
+        </div>
+
+        <div className="relative z-30 max-w-6xl mx-auto px-4 text-center">
+          <div className="space-y-8">
+            <h1 className="text-5xl md:text-7xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
+              Inspection de Sites Photovoltaïques et Toitures par Drone avec Caméra Thermique
             </h1>
-            <p className="text-xl text-gray-300 mb-8">
-              Optimisez la performance de vos installations solaires grâce à notre expertise en inspection thermique
+            <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
+              Découvrez comment cette solution innovante peut améliorer l'évaluation de l'état et la maintenance de vos infrastructures photovoltaïques et de vos toitures.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* Explication Section */}
+      <section className="py-16 bg-gray-900/50">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-12 text-blue-400">Comment fonctionne l'inspection par drone avec caméra thermique ?</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <p className="text-gray-400 mb-4">
+                L'inspection de centrales photovoltaïques, ombrières et toitures à l'aide de drones équipés de caméras thermiques permet de détecter rapidement les anomalies, les dégradations ou les défaillances sans mobiliser d'équipes au sol. Les drones survolent les installations et captent des images haute résolution, tandis que les caméras thermiques identifient les différences de température à la surface des matériaux.
+              </p>
+              <p className="text-gray-400">
+                Cette approche est particulièrement adaptée pour inspecter les cellules solaires, le câblage électrique et les structures des ombrières photovoltaïques et des toitures équipées de panneaux solaires. Les points chauds et froids détectés permettent de diagnostiquer les problèmes potentiels.
+              </p>
+            </div>
+            <div>
+              <p className="text-gray-400 mb-4">
+                Les principaux avantages de cette solution sont l'amélioration de la sécurité, la rapidité d'exécution, l'accès à des zones difficiles et la précision des inspections grâce à la thermographie. Cela permet de réduire les coûts d'entretien et de maintenance en détectant les problèmes à un stade précoce.
+              </p>
+              <p className="text-gray-400">
+                Les rapports d'inspection détaillés, incluant la cartographie thermique, l'analyse visuelle et des recommandations, aident les entreprises à prendre des décisions éclairées pour optimiser la performance et la durée de vie de leurs installations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Exemples Section */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Service 1 */}
-            <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-blue-500/50 transition-all">
-              <h3 className="text-xl font-semibold mb-4 text-blue-400">Inspection Thermique</h3>
-              <p className="text-gray-300">
-                Détectez les anomalies thermiques et les points chauds de vos panneaux solaires pour une maintenance préventive efficace.
-              </p>
-            </div>
-
-            {/* Service 2 */}
-            <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-blue-500/50 transition-all">
-              <h3 className="text-xl font-semibold mb-4 text-blue-400">Analyse de Performance</h3>
-              <p className="text-gray-300">
-                Évaluez le rendement de vos installations et identifiez les zones de perte de production pour optimiser votre production &apos;énergie.
-              </p>
-            </div>
-
-            {/* Service 3 */}
-            <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-white/10 hover:border-blue-500/50 transition-all">
-              <h3 className="text-xl font-semibold mb-4 text-blue-400">Maintenance Préventive</h3>
-              <p className="text-gray-300">
-                Planifiez vos interventions de maintenance grâce à des rapports détaillés et des recommandations précises.
-              </p>
-            </div>
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-12 text-blue-400">Exemples de Réalisations</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {examples.map((example, index) => (
+              <div key={index} className="text-center">
+                <img src={example.image} alt={`Exemple ${index + 1}`} className="rounded-xl" />
+                <p className="text-gray-400 mt-2">{example.legend}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Avantages Section */}
-      <section className="py-16 bg-black/50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center">Pourquoi choisir notre service d&apos;inspection photovoltaïque ?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
-                <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold mb-2">Rapidité d&apos;Intervention</h3>
-                <p className="text-gray-300">Inspection complète de vos installations en un temps record grâce à nos drones.</p>
-              </div>
-            </div>
-
-            <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
-                <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold mb-2">Précision des Analyses</h3>
-                <p className="text-gray-300">Détection précise des anomalies grâce à nos caméras thermiques haute résolution.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 text-center">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-8">Optimisez la performance de vos installations solaires</h2>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105">
+      {/* Conclusion Section */}
+      <section className="py-16 text-center bg-gray-900/50">
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-6 text-blue-400">
+            Optimiser la performance et la sécurité de vos infrastructures
+          </h2>
+          <p className="text-xl text-gray-400 mb-8">
+            L'inspection de centrales photovoltaïques, ombrières et toitures par drone avec caméra thermique est une solution moderne, rapide et précise qui vous permettra de détecter les problèmes, d'améliorer la maintenance et de réduire les coûts à long terme. Découvrez comment cette approche peut bénéficier à vos installations.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <button className="bg-blue-500/80 backdrop-blur-sm hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105">
+              En savoir plus
+            </button>
+            <button className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-xl text-lg transition-all">
               Demander un devis
             </button>
           </div>
@@ -95,4 +104,6 @@ export default function PhotovoltaiquePage() {
       </section>
     </div>
   );
-} 
+};
+
+export default ThermalInspectionExplained;

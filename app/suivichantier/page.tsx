@@ -1,4 +1,5 @@
 import Navigation from '../components/Navigation'
+import Link from 'next/link';
 
 const FollowUpSiteMonitoring = () => {
   return (
@@ -28,9 +29,12 @@ const FollowUpSiteMonitoring = () => {
               <button className="bg-blue-500/80 backdrop-blur-sm hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105">
                 Découvrir nos services
               </button>
-              <button className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-xl text-lg transition-all">
+              <Link 
+                href="/devis" 
+                className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-xl text-lg transition-all"
+              >
                 Demander un devis
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -230,9 +234,12 @@ const FollowUpSiteMonitoring = () => {
             <button className="bg-blue-500/80 backdrop-blur-sm hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105">
               Découvrir la solution
             </button>
-            <button className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-xl text-lg transition-all">
+            <Link 
+              href="/devis" 
+              className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-xl text-lg transition-all"
+            >
               Demander un devis
-            </button>
+            </Link>
           </div>
         </div>
       </section>

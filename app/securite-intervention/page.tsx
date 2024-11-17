@@ -1,4 +1,5 @@
 import Navigation from '../components/Navigation';
+import Link from 'next/link';
 
 export default function SecuriteInterventionPage() {
   return (
@@ -26,9 +27,12 @@ export default function SecuriteInterventionPage() {
             Solutions de surveillance et d'intervention rapide par drone pour votre sécurité
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <button className="bg-blue-500/80 backdrop-blur-sm hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105">
-              Nos services d'urgence
-            </button>
+            <Link 
+              href="/devis" 
+              className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white px-8 py-4 rounded-xl text-lg transition-all"
+            >
+              Demander un devis
+            </Link>
             <button className="bg-red-500/80 backdrop-blur-sm hover:bg-red-600 text-white px-8 py-4 rounded-xl text-lg transition-all">
               Contact urgent
             </button>
