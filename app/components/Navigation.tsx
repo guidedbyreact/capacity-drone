@@ -38,19 +38,19 @@ export default function Navigation() {
                 <div className="absolute left-0 mt-2 w-64 rounded-md shadow-lg bg-black/80 backdrop-blur-sm border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                   <div className="py-1">
                     <Link href="/inspection-drones" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
-                      Inspection par Drones
+                      Inspection et Surveillance
                     </Link>
-                    <Link href="/cartographie" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
-                      Cartographie
+                    <Link href="/topographie" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
+                      Topographie et Modelisation
                     </Link>
-                    <Link href="/securite-intervention" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
-                      Sécurité &amp; Intervention
+                    <Link href="/thermique" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
+                      Thermique et gestion de l energie
                     </Link>
-                    <Link href="/detection-thermique" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
-                      Détection Thermique
+                    <Link href="/telecommunication" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
+                      Télécommunication
                     </Link>
-                    <Link href="/solutions-professionnelles" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
-                      Solutions Professionnelles
+                    <Link href="/suivichantier" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
+                      Suivi De Chantier
                     </Link>
                   </div>
                 </div>
@@ -59,7 +59,7 @@ export default function Navigation() {
               {/* Menu déroulant Domaines d'activités */}
               <div className="relative group">
                 <button className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium flex items-center">
-                  Domaines d&apos;activités
+                  Nos Réalisations
                   <svg className="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
