@@ -8,7 +8,7 @@ const ConstructionSiteRealizations = () => {
     },
     {
       image: "/api/placeholder/1920/1080",
-      legend: "Suivi d'un chantier d'infrastructure"
+      legend: "Suivi d&apos;un chantier d&apos;infrastructure"
     },
     {
       image: "/api/placeholder/1920/1080",
@@ -37,7 +37,7 @@ const ConstructionSiteRealizations = () => {
               Suivi de Chantier par Drone
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
-              Découvrez comment cette technologie moderne et efficace peut améliorer la gestion de vos projets de construction, d'aménagement ou de rénovation.
+              Découvrez comment cette technologie moderne et efficace peut améliorer la gestion de vos projets de construction, d&apos;aménagement ou de rénovation.
             </p>
           </div>
         </div>
@@ -50,18 +50,18 @@ const ConstructionSiteRealizations = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <p className="text-gray-400 mb-4">
-                Le suivi de chantier par drone utilise des drones équipés de caméras haute définition pour capturer des images régulières du site en construction. Ces images permettent aux responsables de projet de suivre l'avancement des travaux en temps réel, de vérifier la conformité avec les plans et de détecter rapidement tout problème.
+                Le suivi de chantier par drone utilise des drones équipés de caméras haute définition pour capturer des images régulières du site en construction. Ces images permettent aux responsables de projet de suivre l&apos;avancement des travaux en temps réel, de vérifier la conformité avec les plans et de détecter rapidement tout problème.
               </p>
               <p className="text-gray-400">
-                La solution comprend une planification des vols, la prise de photos à différents angles et intervalles, ainsi que la mise à jour régulière d'un système de suivi. Cela offre une visibilité complète sur l'évolution du chantier.
+                La solution comprend une planification des vols, la prise de photos à différents angles et intervalles, ainsi que la mise à jour régulière d&apos;un système de suivi. Cela offre une visibilité complète sur l&apos;évolution du chantier.
               </p>
             </div>
             <div>
               <p className="text-gray-400 mb-4">
-                Les principaux avantages de cette approche sont le suivi en temps réel, les gains de temps, la documentation détaillée et la facilité de gestion des incidents. Les photos peuvent également être analysées pour comparer l'évolution, suivre les délais et créer des modèles 3D immersifs.
+                Les principaux avantages de cette approche sont le suivi en temps réel, les gains de temps, la documentation détaillée et la facilité de gestion des incidents. Les photos peuvent également être analysées pour comparer l&apos;évolution, suivre les délais et créer des modèles 3D immersifs.
               </p>
               <p className="text-gray-400">
-                Le suivi de chantier par drone devient un outil incontournable pour une gestion optimale des projets de construction, d'aménagement et de rénovation.
+                Le suivi de chantier par drone devient un outil incontournable pour une gestion optimale des projets de construction, d&apos;aménagement et de rénovation.
               </p>
             </div>
           </div>
@@ -90,7 +90,7 @@ const ConstructionSiteRealizations = () => {
             Prêt à exploiter le plein potentiel de vos chantiers ?
           </h2>
           <p className="text-xl text-gray-400 mb-8">
-            Le suivi de chantier par drone offre une visibilité complète sur l'évolution des travaux, combinant gain de temps, réduction des coûts et amélioration de la qualité de suivi. Découvrez comment cette solution peut vous aider à garantir la réussite de vos projets.
+            Le suivi de chantier par drone offre une visibilité complète sur l&apos;évolution des travaux, combinant gain de temps, réduction des coûts et amélioration de la qualité de suivi. Découvrez comment cette solution peut vous aider à garantir la réussite de vos projets.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-blue-500/80 backdrop-blur-sm hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105">

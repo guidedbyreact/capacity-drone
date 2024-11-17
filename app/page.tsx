@@ -31,7 +31,7 @@ function Home() {
             CAPACITY DRONE
           </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-300">
-              L'excellence des services de drones professionnels
+              L&apos;excellence des services de drones professionnels
             </p>
             <p className="text-lg md:text-xl mb-12 max-w-3xl mx-auto text-gray-400">
               Votre partenaire expert en solutions de drones professionnelles pour des missions variées : 

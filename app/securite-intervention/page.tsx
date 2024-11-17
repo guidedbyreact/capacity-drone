@@ -21,10 +21,10 @@ export default function SecuriteInterventionPage() {
         {/* Hero Content */}
         <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
-            Sécurité & Intervention d'Urgence
+            Sécurité & Intervention d&apos;Urgence
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-300">
-            Solutions de surveillance et d'intervention rapide par drone pour votre sécurité
+            Solutions de surveillance et d&apos;intervention rapide par drone pour votre sécurité
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Link 
@@ -57,7 +57,7 @@ export default function SecuriteInterventionPage() {
                 ]
               },
               {
-                title: "Intervention d'Urgence",
+                title: "Intervention d&apos;Urgence",
                 description: "Déploiement rapide pour situations critiques et évaluation immédiate",
                 features: [
                   "Réponse rapide 24/7",
@@ -68,7 +68,7 @@ export default function SecuriteInterventionPage() {
               },
               {
                 title: "Sécurité Événementielle",
-                description: "Surveillance et sécurisation d'événements et rassemblements",
+                description: "Surveillance et sécurisation d&apos;événements et rassemblements",
                 features: [
                   "Contrôle des foules",
                   "Gestion des accès",
@@ -107,13 +107,13 @@ export default function SecuriteInterventionPage() {
       {/* Emergency Response Process */}
       <section className="py-20 bg-gray-900/50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-blue-400 mb-12">Processus d'Intervention</h2>
+          <h2 className="text-3xl font-bold text-blue-400 mb-12">Processus d&apos;Intervention</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {[
               {
                 step: "1",
                 title: "Alerte",
-                description: "Réception et analyse rapide de la situation d'urgence"
+                description: "Réception et analyse rapide de la situation d&apos;urgence"
               },
               {
                 step: "2",
@@ -150,7 +150,7 @@ export default function SecuriteInterventionPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Drones d'Intervention",
+                title: "Drones d&apos;Intervention",
                 specs: [
                   "Caméras haute définition",
                   "Vision nocturne",
@@ -197,17 +197,17 @@ export default function SecuriteInterventionPage() {
       <section className="py-20 bg-gray-900/50">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-blue-400 mb-6">
-            Besoin d'une intervention urgente ?
+            Besoin d&apos;une intervention urgente ?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Nos équipes sont disponibles 24/7 pour répondre à vos besoins en matière de sécurité et d'intervention d'urgence.
+            Nos équipes sont disponibles 24/7 pour répondre à vos besoins en matière de sécurité et d&apos;intervention d&apos;urgence.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a 
               href="/contact" 
               className="bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105"
             >
-              Contact d'urgence
+              Contact d&apos;urgence
             </a>
             <button className="bg-blue-500/80 backdrop-blur-sm hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all">
               En savoir plus

@@ -67,13 +67,13 @@ const FollowUpSiteMonitoring = () => {
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Planification des Vols</h3>
               <p className="text-gray-400">
-                Définition des zones clés à surveiller, de la fréquence des prises de vues et du parcours de vol pour couvrir l'ensemble du chantier.
+                Définition des zones clés à surveiller, de la fréquence des prises de vues et du parcours de vol pour couvrir l&apos;ensemble du chantier.
               </p>
             </div>
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Prise de Photos Régulières</h3>
               <p className="text-gray-400">
-                Capture d'images aériennes à intervalles réguliers, sous différents angles et altitudes pour offrir une vue complète du chantier.
+                Capture d&apos;images aériennes à intervalles réguliers, sous différents angles et altitudes pour offrir une vue complète du chantier.
               </p>
             </div>
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
@@ -94,13 +94,13 @@ const FollowUpSiteMonitoring = () => {
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Planification des Vols</h3>
               <p className="text-gray-400">
-                Définition des zones clés à surveiller, de la fréquence des prises de vues et du parcours de vol pour couvrir l'ensemble du chantier.
+                Définition des zones clés à surveiller, de la fréquence des prises de vues et du parcours de vol pour couvrir l&apos;ensemble du chantier.
               </p>
             </div>
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Prise de Photos Régulières</h3>
               <p className="text-gray-400">
-                Capture d'images aériennes à intervalles réguliers, sous différents angles et altitudes pour offrir une vue complète du chantier.
+                Capture d&apos;images aériennes à intervalles réguliers, sous différents angles et altitudes pour offrir une vue complète du chantier.
               </p>
             </div>
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
@@ -121,7 +121,7 @@ const FollowUpSiteMonitoring = () => {
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Suivi Précis et en Temps Réel</h3>
               <p className="text-gray-400">
-                Vérification de l'avancement par rapport au planning, identification rapide des problèmes ou retards, et contrôle de la conformité des travaux.
+                Vérification de l&apos;avancement par rapport au planning, identification rapide des problèmes ou retards, et contrôle de la conformité des travaux.
               </p>
             </div>
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
@@ -133,7 +133,7 @@ const FollowUpSiteMonitoring = () => {
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Documentation Complète et Archives</h3>
               <p className="text-gray-400">
-                Historique visuel du chantier, utile pour les rapports, les audits et la présentation de l'avancement aux parties prenantes.
+                Historique visuel du chantier, utile pour les rapports, les audits et la présentation de l&apos;avancement aux parties prenantes.
               </p>
             </div>
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
@@ -149,10 +149,10 @@ const FollowUpSiteMonitoring = () => {
       {/* Exploitation des Photos Section */}
       <section className="py-16 bg-gray-900/50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-blue-400">Exploitation des Photos pour l'Analyse et la Planification</h2>
+          <h2 className="text-3xl font-bold mb-12 text-blue-400">Exploitation des Photos pour l&apos;Analyse et la Planification</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Comparaison de l'Évolution</h3>
+              <h3 className="text-xl font-semibold mb-3 text-blue-300">Comparaison de l&apos;Évolution</h3>
               <p className="text-gray-400">
                 Superposition des photos prises à différents moments pour observer les changements dans la structure du chantier.
               </p>
@@ -166,7 +166,7 @@ const FollowUpSiteMonitoring = () => {
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Création de Modèles 3D</h3>
               <p className="text-gray-400">
-                Génération de modèles 3D du chantier à partir des images, offrant une visualisation immersive de l'évolution.
+                Génération de modèles 3D du chantier à partir des images, offrant une visualisation immersive de l&apos;évolution.
               </p>
             </div>
           </div>
@@ -176,37 +176,37 @@ const FollowUpSiteMonitoring = () => {
       {/* Applications Spécifiques Section */}
       <section className="py-16">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-blue-400">Exemples d'Applications Spécifiques</h2>
+          <h2 className="text-3xl font-bold mb-12 text-blue-400">Exemples d&apos;Applications Spécifiques</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Suivi de Construction Résidentielle</h3>
               <p className="text-gray-400">
-                Surveillance de l'évolution des travaux de fondation, de structure et de toiture pour vérifier le respect des normes.
+                Surveillance de l&apos;évolution des travaux de fondation, de structure et de toiture pour vérifier le respect des normes.
               </p>
             </div>
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Suivi de Grands Projets d'Infrastructure</h3>
+              <h3 className="text-xl font-semibold mb-3 text-blue-300">Suivi de Grands Projets d&apos;Infrastructure</h3>
               <p className="text-gray-400">
-                Capture d'images précises et régulières pour suivre l'avancement des travaux de terrassement, de construction des fondations ou de pose des structures.
+                Capture d&apos;images précises et régulières pour suivre l&apos;avancement des travaux de terrassement, de construction des fondations ou de pose des structures.
               </p>
             </div>
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Suivi de Rénovations</h3>
               <p className="text-gray-400">
-                Documentation des progrès et détection des problèmes pendant l'exécution des travaux de rénovation.
+                Documentation des progrès et détection des problèmes pendant l&apos;exécution des travaux de rénovation.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Rapports d'Avancement Section */}
+      {/* Rapports d&apos;Avancement Section */}
       <section className="py-16 bg-gray-900/50">
         <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-blue-400">Rendu des Rapports d'Avancement</h2>
+          <h2 className="text-3xl font-bold mb-12 text-blue-400">Rendu des Rapports d&apos;Avancement</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Captures d'Écran et Annotations</h3>
+              <h3 className="text-xl font-semibold mb-3 text-blue-300">Captures d&apos;Écran et Annotations</h3>
               <p className="text-gray-400">
                 Intégration des photos prises par drone dans des rapports, avec des commentaires sur les aspects spécifiques du chantier.
               </p>
@@ -214,7 +214,7 @@ const FollowUpSiteMonitoring = () => {
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Comparaisons et Suggestions</h3>
               <p className="text-gray-400">
-                Comparaisons entre les photos pour montrer l'évolution du chantier et propositions d'actions correctives ou d'ajustements.
+                Comparaisons entre les photos pour montrer l&apos;évolution du chantier et propositions d&apos;actions correctives ou d&apos;ajustements.
               </p>
             </div>
           </div>
@@ -228,7 +228,7 @@ const FollowUpSiteMonitoring = () => {
             Une Solution Incontournable pour la Gestion de Chantier
           </h2>
           <p className="text-xl text-gray-400 mb-8">
-            Le suivi de chantier par drone, avec la prise de photos régulières, offre une visibilité complète sur l'évolution des travaux. Cette méthode permet de garantir la bonne gestion et la réussite d'un projet de construction, en combinant gain de temps, réduction des coûts et amélioration de la qualité de suivi.
+            Le suivi de chantier par drone, avec la prise de photos régulières, offre une visibilité complète sur l&apos;évolution des travaux. Cette méthode permet de garantir la bonne gestion et la réussite d&apos;un projet de construction, en combinant gain de temps, réduction des coûts et amélioration de la qualité de suivi.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-blue-500/80 backdrop-blur-sm hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105">

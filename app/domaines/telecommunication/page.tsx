@@ -4,7 +4,7 @@ const TelecomDroneApplications = () => {
   const examples = [
     {
       image: "/api/placeholder/1920/1080",
-      legend: "Inspection d'un site de télécommunication avec drone"
+      legend: "Inspection d&apos;un site de télécommunication avec drone"
     },
     {
       image: "/api/placeholder/1920/1080",
@@ -37,7 +37,7 @@ const TelecomDroneApplications = () => {
               Télécommunication Visée FH & Jumeaux Numériques Panoramiques 360° par Drone
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
-              La télécommunication visée FH (Fréquences Hautes) et la création de jumeaux numériques panoramiques à 360° par drone sont des technologies avancées qui permettent d'optimiser l'infrastructure des réseaux de télécommunications et de faciliter la gestion et la maintenance des sites.
+              La télécommunication visée FH (Fréquences Hautes) et la création de jumeaux numériques panoramiques à 360° par drone sont des technologies avancées qui permettent d&apos;optimiser l&apos;infrastructure des réseaux de télécommunications et de faciliter la gestion et la maintenance des sites.
             </p>
           </div>
         </div>
@@ -50,10 +50,10 @@ const TelecomDroneApplications = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <p className="text-gray-400 mb-4">
-                La "visée FH" fait référence à la mise en place et à l'alignement des liens de communication à haute fréquence, essentiels pour les réseaux de données, notamment dans les zones éloignées ou difficiles d'accès. Les drones permettent d'assurer un alignement précis des antennes, de surveiller à distance les sites de transmission et de collecter des données techniques.
+                La &quot;visée FH&quot; fait référence à la mise en place et à l&apos;alignement des liens de communication à haute fréquence, essentiels pour les réseaux de données, notamment dans les zones éloignées ou difficiles d&apos;accès. Les drones permettent d&apos;assurer un alignement précis des antennes, de surveiller à distance les sites de transmission et de collecter des données techniques.
               </p>
               <p className="text-gray-400">
-                Les jumeaux numériques panoramiques 360° créés à partir de données de drones offrent une visualisation et une simulation en temps réel des sites, facilitant l'analyse et la gestion des infrastructures de télécommunications.
+                Les jumeaux numériques panoramiques 360° créés à partir de données de drones offrent une visualisation et une simulation en temps réel des sites, facilitant l&apos;analyse et la gestion des infrastructures de télécommunications.
               </p>
             </div>
             <div>
@@ -61,7 +61,7 @@ const TelecomDroneApplications = () => {
                 Ces technologies combinées permettent une meilleure gestion des infrastructures, une installation plus précise des équipements, une maintenance prédictive et une optimisation du déploiement des réseaux.
               </p>
               <p className="text-gray-400">
-                Les principaux avantages sont l'efficacité, la réduction des coûts, l'accessibilité à des zones difficiles et la qualité des données collectées, offrant ainsi une gestion plus efficace et une meilleure anticipation des problèmes.
+                Les principaux avantages sont l&apos;efficacité, la réduction des coûts, l&apos;accessibilité à des zones difficiles et la qualité des données collectées, offrant ainsi une gestion plus efficace et une meilleure anticipation des problèmes.
               </p>
             </div>
           </div>
@@ -90,7 +90,7 @@ const TelecomDroneApplications = () => {
             Des Solutions Complètes pour les Télécommunications
           </h2>
           <p className="text-xl text-gray-400 mb-8">
-            L'inspection par drone et la création de jumeaux numériques panoramiques 360° sont des outils puissants pour les opérateurs de télécommunications souhaitant optimiser la gestion et la maintenance de leurs infrastructures. Grâce à ces technologies, les entreprises peuvent améliorer la qualité de service et garantir la pérennité de leurs installations, tout en restant compétitives dans un secteur en constante évolution.
+            L&apos;inspection par drone et la création de jumeaux numériques panoramiques 360° sont des outils puissants pour les opérateurs de télécommunications souhaitant optimiser la gestion et la maintenance de leurs infrastructures. Grâce à ces technologies, les entreprises peuvent améliorer la qualité de service et garantir la pérennité de leurs installations, tout en restant compétitives dans un secteur en constante évolution.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-blue-500/80 backdrop-blur-sm hover:bg-blue-600 text-white px-8 py-4 rounded-xl text-lg transition-all transform hover:scale-105">

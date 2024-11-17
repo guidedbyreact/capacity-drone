@@ -118,7 +118,7 @@ const DroneInspection = () => {
                 <li>Inspection rapide des grandes surfaces</li>
                 <li>Réduction des coûts opérationnels</li>
                 <li>Moins de personnel nécessaire</li>
-                <li>Évitement d'équipements coûteux</li>
+                <li>Évitement d&apos;équipements coûteux</li>
               </ul>
             </div>
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
@@ -166,7 +166,7 @@ const DroneInspection = () => {
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-8 text-blue-400">Une Solution Moderne et Efficace</h2>
           <p className="text-xl text-gray-400 mb-8 max-w-4xl mx-auto">
-            L'inspection par drone est une méthode efficace, rapide et sécuritaire pour effectuer des contrôles réguliers et des évaluations détaillées. Grâce à cette technologie, les entreprises peuvent réduire leurs coûts d'entretien, détecter les problèmes à un stade précoce, et garantir une gestion proactive de leurs infrastructures.
+            L&apos;inspection par drone est une méthode efficace, rapide et sécuritaire pour effectuer des contrôles réguliers et des évaluations détaillées. Grâce à cette technologie, les entreprises peuvent réduire leurs coûts d&apos;entretien, détecter les problèmes à un stade précoce, et garantir une gestion proactive de leurs infrastructures.
           </p>
         </div>
       </section>
