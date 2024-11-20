@@ -61,9 +61,9 @@ const FollowUpSiteMonitoring = () => {
 
       {/* Process Section */}
       <section id="process" className="py-16 bg-gray-900/50">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-blue-400">Comment fonctionne le suivi de chantier par drone ?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-12 text-blue-400 text-center">Comment fonctionne le suivi de chantier par drone ?</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Planification des Vols</h3>
               <p className="text-gray-400">

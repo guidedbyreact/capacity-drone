@@ -86,7 +86,7 @@ const TopographiePage = () => {
               },
               {
                 title: "Orthophotographie",
-                description: "Production d&apos;images géoréférencées à l&apos;échelle pour des mesures et analyses précises.",
+                description: "Production d'images géoréférencées à l'échelle pour des mesures et analyses précises.",
                 details: [
                   "Images haute résolution",
                   "Géoréférencement précis",
@@ -202,35 +202,33 @@ const TopographiePage = () => {
 
       {/* Features Section */}
       <section className="py-16 bg-gray-900/50">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-blue-400">Caractéristiques Techniques</h2>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-12 text-blue-400 text-center">Caractéristiques Techniques</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {[
               {
                 value: "2cm/px",
                 label: "Résolution",
-                detail: "Précision exceptionnelle pour des détails nets"
+                detail: "Précision exceptionnelle pour des détails nets et une cartographie ultra-précise de vos terrains"
               },
               {
                 value: "99%",
                 label: "Précision",
-                detail: "Mesures fiables et exactes"
+                detail: "Mesures fiables et exactes garantissant une qualité professionnelle pour vos projets"
               },
               {
                 value: "4K",
                 label: "Qualité Vidéo",
-                detail: "Images ultra-haute définition"
-              },
-              {
-                value: "500ha/jour",
-                label: "Couverture",
-                detail: "Cartographie rapide et efficace"
+                detail: "Images ultra-haute définition permettant une analyse détaillée de chaque élément"
               }
             ].map((stat, index) => (
-              <div key={index} className="text-center p-6 bg-blue-500/10 rounded-xl hover:bg-blue-500/20 transition-all">
-                <div className="text-2xl font-bold text-blue-300 mb-2">{stat.value}</div>
-                <div className="text-gray-400 font-semibold mb-2">{stat.label}</div>
-                <div className="text-sm text-gray-500">{stat.detail}</div>
+              <div 
+                key={index} 
+                className="text-center p-8 bg-blue-500/10 rounded-xl hover:bg-blue-500/20 transition-all backdrop-blur-sm border border-blue-500/20"
+              >
+                <div className="text-4xl font-bold text-blue-300 mb-4">{stat.value}</div>
+                <div className="text-xl text-gray-300 font-semibold mb-4">{stat.label}</div>
+                <div className="text-base text-gray-400 leading-relaxed">{stat.detail}</div>
               </div>
             ))}
           </div>

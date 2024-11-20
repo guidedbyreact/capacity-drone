@@ -61,32 +61,6 @@ const ThermalInspectionDetailed  = () => {
         </div>
       </a>
 
-      {/* Process Section */}
-      <section id="process" className="py-16 bg-gray-900/50">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-blue-400">Comment fonctionne la détection thermique ?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-            <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Drones Haute Précision</h3>
-              <p className="text-gray-400">
-                Nos drones suivent des itinéraires prédéfinis pour une cartographie complète et précise de vos installations. Équipés de caméras HD et thermiques, ils capturent des images de haute qualité même dans les zones difficiles d&apos;accès.
-              </p>
-            </div>
-            <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Caméras Thermiques de Pointe</h3>
-              <p className="text-gray-400">
-                Nos caméras thermiques détectent les plus infimes différences de température à la surface des matériaux, permettant d&apos;identifier précisément :
-              </p>
-              <ul className="list-disc list-inside mt-2 text-gray-400">
-                <li>Cellules solaires défectueuses</li>
-                <li>Problèmes de câblage et points de surchauffe</li>
-                <li>Défauts de connexion et zones sous-performantes</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Technology Section */}
       <section className="py-16 bg-gray-900/50">
         <div className="max-w-6xl mx-auto px-4">
@@ -145,7 +119,8 @@ const ThermalInspectionDetailed  = () => {
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Toitures</h3>
               <p className="text-gray-400">
-                Inspection complète des toitures équipées :
+                Inspection complète des toitures<br />
+                équipées pour :
               </p>
               <ul className="list-disc list-inside mt-2 text-gray-400">
                 <li>Détection des fuites thermiques</li>
@@ -197,7 +172,7 @@ const ThermalInspectionDetailed  = () => {
           <h2 className="text-3xl font-bold mb-12 text-blue-400">Rapports d&apos;Inspection Détaillés</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Cartographie Thermique</h3>
+              <h3 className="text-xl font-semibold mb-3 text-blue-300 whitespace-nowrap">Cartographie Thermique</h3>
               <ul className="list-disc list-inside text-gray-400">
                 <li>Points chauds et froids</li>
                 <li>Images haute résolution</li>

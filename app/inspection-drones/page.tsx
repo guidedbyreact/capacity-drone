@@ -79,7 +79,7 @@ const DroneInspection = () => {
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
               <h3 className="text-xl font-semibold mb-3 text-blue-300">Collecte des données</h3>
               <p className="text-gray-400">
-                Les images et vidéos sont transmises en direct au technicien au sol ou stockées pour une analyse ultérieure. Les capteurs thermiques peuvent détecter des anomalies de température.
+                Les images et vidéos sont transmises en direct au technicien au sol ou stockées pour une analyse ultérieure.
               </p>
             </div>
             <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">

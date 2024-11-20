@@ -44,7 +44,7 @@ export default function Navigation() {
                       Topographie et Modelisation
                     </Link>
                     <Link href="/thermique" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
-                      Thermique et gestion de l energie
+                      Thermique et gestion de l&apos;energie
                     </Link>
                     <Link href="/telecommunication" className="block px-4 py-2 text-sm text-gray-300 hover:text-white hover:bg-white/10">
                       Télécommunication

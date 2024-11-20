@@ -61,100 +61,27 @@ const TelecomDroneApplications = () => {
 
       {/* Process Section */}
       <section id="process" className="py-16 bg-gray-900/50">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-blue-400">Comment fonctionne la télécommunication par drone ?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
-            <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Alignement précis</h3>
-              <p className="text-gray-400">
-                Lors de l&apos;installation ou de la maintenance des antennes de télécommunications, un drone équipé de caméras et de capteurs peut survoler et inspecter les sites de manière à assurer un alignement parfait entre les antennes. Cela est crucial pour garantir la qualité et la performance des liaisons FH.
-              </p>
-            </div>
-            <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Surveillance à distance</h3>
-              <p className="text-gray-400">
-                Les drones peuvent être utilisés pour inspecter les sites de transmission sans avoir à déployer des équipes sur le terrain, ce qui permet de gagner du temps et de réduire les coûts d&apos;exploitation.
-              </p>
-            </div>
-            <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Collecte de données</h3>
-              <p className="text-gray-400">
-                En survolant les sites de manière régulière, les drones peuvent recueillir des données techniques, permettant de détecter d&apos;éventuels problèmes de signal ou de mise en place des équipements.
-              </p>
-            </div>
-            <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Captation complète de l&apos;environnement</h3>
-              <p className="text-gray-400">
-                Les drones équipés de caméras 360° prennent des images et des vidéos de toute la zone d&apos;intérêt, créant ainsi un modèle numérique en trois dimensions de l&apos;ensemble du site.
-              </p>
-            </div>
-            <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Visualisation et analyse</h3>
-              <p className="text-gray-400">
-                Ce modèle peut être utilisé pour explorer le site de manière virtuelle, inspecter des installations et analyser des zones difficiles d&apos;accès à partir d&apos;un simple ordinateur ou d&apos;un casque VR (réalité virtuelle). Les jumeaux numériques permettent également de superposer des données techniques pour une analyse approfondie.
-              </p>
-            </div>
-            <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Suivi à long terme</h3>
-              <p className="text-gray-400">
-                Ces modèles permettent de suivre l&apos;évolution d&apos;un site dans le temps, de détecter les changements, d&apos;identifier les risques potentiels et de planifier les futures interventions de manière plus informée et ciblée.
-              </p>
-            </div>
-            <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Amélioration de la gestion des infrastructures</h3>
-              <p className="text-gray-400">
-                Grâce aux jumeaux numériques, les gestionnaires de réseaux peuvent avoir une vue complète et détaillée des sites de télécommunication. Cela facilite la gestion de la maintenance, l&apos;optimisation des installations et l&apos;identification rapide des besoins en réparation ou en mise à jour.
-              </p>
-            </div>
-            <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Précision dans l&apos;installation des équipements</h3>
-              <p className="text-gray-400">
-                La prise de vues 360° permet de visualiser l&apos;alignement des antennes et des équipements de transmission, garantissant une qualité de service optimale pour les connexions FH.
-              </p>
-            </div>
-            <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Maintenance prédictive</h3>
-              <p className="text-gray-400">
-                En superposant les données des drones avec des informations en temps réel et historiques, les opérateurs peuvent mieux anticiper les pannes ou les défaillances, réduisant ainsi les coûts de maintenance et améliorant la fiabilité du réseau.
-              </p>
-            </div>
-            <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Optimisation du déploiement</h3>
-              <p className="text-gray-400">
-                Lors de l&apos;installation de nouvelles antennes ou d&apos;extensions de réseaux, la visualisation panoramique 360° permet de planifier l&apos;emplacement des équipements en tenant compte de l&apos;environnement exact et des conditions sur le terrain.
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-12 text-blue-400 text-center">Télécommunication Visée FH (Fréquences Hautes) par Drone</h2>
+          <div className="max-w-5xl mx-auto">
+            <div className="p-8 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
+              <p className="text-gray-400 text-lg leading-relaxed">
+                Les fréquences hautes (FH) sont utilisées dans les réseaux de télécommunications pour fournir des connexions à haut débit sur de longues distances. La &quot;visée FH&quot; fait référence à la mise en place et à l&apos;alignement de ces liens de communication, qui sont essentiels pour les réseaux de données, notamment dans les zones éloignées ou difficiles d&apos;accès.
               </p>
             </div>
           </div>
         </div>
+        
       </section>
 
-      {/* Avantages Section */}
-      <section className="py-16">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-blue-400">Avantages de l&apos;Utilisation de Drones pour ces Applications</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Efficacité accrue</h3>
-              <p className="text-gray-400">
-                Les drones permettent de couvrir de grandes zones rapidement et de capturer des données très précises sans mobiliser une équipe sur le terrain.
-              </p>
-            </div>
-            <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Réduction des coûts</h3>
-              <p className="text-gray-400">
-                Moins de besoin de matériel lourd (comme les nacelles ou les échafaudages) et moins de personnel requis pour les inspections de sites éloignés ou en hauteur.
-              </p>
-            </div>
-            <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Accessibilité</h3>
-              <p className="text-gray-400">
-                Les drones permettent d&apos;accéder facilement à des zones difficiles ou dangereuses pour l&apos;homme, comme les toits, les pylônes ou les sites isolés.
-              </p>
-            </div>
-            <div className="p-6 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
-              <h3 className="text-xl font-semibold mb-3 text-blue-300">Données de haute qualité</h3>
-              <p className="text-gray-400">
-                Les drones peuvent être équipés de caméras haute résolution, de capteurs thermiques et d&apos;autres technologies pour fournir des données précises et détaillées, garantissant ainsi une meilleure qualité d&apos;analyse.
+      {/* Process Section */}
+      <section id="avantages" className="py-16 bg-gray-900/50">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-12 text-blue-400 text-center">Jumeaux Numériques Panoramiques 360° par Drone</h2>
+          <div className="max-w-5xl mx-auto">
+            <div className="p-8 border border-blue-500/20 rounded-xl backdrop-blur-sm hover:border-blue-500/40 transition-all">
+              <p className="text-gray-400 text-lg leading-relaxed">
+              Les jumeaux numériques sont des répliques virtuelles d&apos;objets physiques ou d&apos;environnements réels. Créés à partir de données collectées par drones, ces modèles numériques permettent une visualisation et une simulation en temps réel, facilitant l&apos;analyse et la gestion des sites. Le concept de panoramique 360° permet de capturer une vue complète à 360 degrés de l&apos;environnement, donnant une perspective immersive du site.
               </p>
             </div>
           </div>
